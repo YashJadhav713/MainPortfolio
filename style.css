@@ -103,7 +103,7 @@ header{
 
 nav{
     display:flex;
-    gap:30px;
+    gap:5px;
 }
 
 nav a{
@@ -123,6 +123,7 @@ nav a :hover{
     align-items:center;
     justify-content:center;
     text-align:center;
+    
 }
 
 /* SHOW ON MOBILE */
@@ -131,7 +132,7 @@ nav a :hover{
     display: block;
     position: absolute;
     top: 4px;
-    right: 20px;
+    right: 10px;
   }
 }
 

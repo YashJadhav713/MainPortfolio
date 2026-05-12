@@ -105,12 +105,14 @@ header{
 nav{
     display:flex;
     gap:10px;
+    
 }
 
 nav a{
     color:white;
     text-decoration:none;
     transition:.3s;
+    
 
 }
 

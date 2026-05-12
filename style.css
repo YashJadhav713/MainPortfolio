@@ -98,12 +98,13 @@ header{
 .logo{
     font-size: 1,7rem;
     font-weight: 700;
+    
 
 }
 
 nav{
     display:flex;
-    gap:5px;
+    gap:10px;
 }
 
 nav a{
@@ -125,7 +126,12 @@ nav a :hover{
     text-align:center;
     
 }
+@media (max-width: 700px) {
+  nav hide {
+    display: hidden;
 
+  }
+}
 /* SHOW ON MOBILE */
 @media (max-width: 700px) {
   .menu-btn {
